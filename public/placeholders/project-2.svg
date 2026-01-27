@@ -1,0 +1,7 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#F8FAFC"/>
+  <rect x="70" y="70" width="300" height="160" rx="24" fill="#E2E8F0"/>
+  <rect x="400" y="70" width="330" height="160" rx="24" fill="#E2E8F0"/>
+  <rect x="70" y="260" width="660" height="140" rx="24" fill="#DBEAFE"/>
+  <text x="70" y="40" fill="#94A3B8" font-family="Arial" font-size="18">Accessible Course Template System</text>
+</svg>

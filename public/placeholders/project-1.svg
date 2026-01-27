@@ -1,0 +1,8 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#F1F5F9"/>
+  <rect x="60" y="70" width="680" height="120" rx="24" fill="#E2E8F0"/>
+  <rect x="60" y="220" width="420" height="30" rx="15" fill="#CBD5F5"/>
+  <rect x="60" y="270" width="520" height="30" rx="15" fill="#CBD5F5"/>
+  <rect x="60" y="340" width="250" height="80" rx="20" fill="#DBEAFE"/>
+  <text x="60" y="40" fill="#94A3B8" font-family="Arial" font-size="18">Alt-Scan Accessibility Tool</text>
+</svg>

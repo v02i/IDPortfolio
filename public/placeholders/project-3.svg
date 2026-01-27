@@ -1,0 +1,7 @@
+<svg width="800" height="500" viewBox="0 0 800 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="500" rx="32" fill="#F8FAFC"/>
+  <rect x="60" y="80" width="680" height="80" rx="24" fill="#E2E8F0"/>
+  <rect x="60" y="190" width="220" height="200" rx="24" fill="#DBEAFE"/>
+  <rect x="310" y="190" width="430" height="200" rx="24" fill="#E2E8F0"/>
+  <text x="60" y="40" fill="#94A3B8" font-family="Arial" font-size="18">Online Orientation Module Redesign</text>
+</svg>
