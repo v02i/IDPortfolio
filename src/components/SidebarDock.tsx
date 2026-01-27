@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const navItems = [
@@ -68,17 +69,26 @@ function Icon({ label }: { label: string }) {
 
 export default function SidebarDock() {
   return (
-    <aside className="fixed left-6 top-6 z-40 hidden h-[calc(100%-3rem)] w-44 flex-col justify-between rounded-[28px] border border-slate-200 bg-white/80 px-4 py-4 shadow-lg backdrop-blur md:flex">
+    <aside className="fixed left-2 top-6 z-40 hidden h-[calc(100%-3rem)] w-44 flex-col justify-between rounded-[28px] border border-slate-200 bg-white/80 px-4 py-4 shadow-lg backdrop-blur md:flex">
       <div className="flex flex-col gap-6">
         <Link
           href="/"
-          className="flex items-center gap-3 rounded-2xl px-2 py-2 text-slate-900"
+          className="flex flex-col items-center gap-2 rounded-2xl px-2 py-2 text-slate-900"
           aria-label="Go to home"
         >
-          <span className="flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">
-            VI
+          <span className="flex h-16 w-16 items-center justify-center overflow-hidden rounded-full border border-white bg-slate-100 shadow-[0_8px_20px_rgba(15,23,42,0.18)] ring-2 ring-slate-200">
+            <Image
+              src="/artifacts/victor.jpg"
+              alt="Victor Iglesias"
+              width={64}
+              height={64}
+              quality={75}
+              sizes="64px"
+              className="h-full w-full object-cover"
+            />
           </span>
-          <span className="text-sm font-semibold">Victor Iglesias</span>
+          <span className="text-sm font-semibold tracking-tight">Victor Iglesias</span>
+          <span className="text-[11px] font-medium text-slate-500">Instructional Designer</span>
         </Link>
         <div className="h-px w-full bg-slate-200" />
         <nav className="flex flex-col gap-1">
