@@ -112,7 +112,7 @@ export default function SidebarDock() {
             />
           </span>
           <span className="text-sm font-semibold tracking-tight">Victor Iglesias</span>
-          <span className="text-[11px] font-medium text-slate-500">Instructional Design Consultant</span>
+          <span className="text-[11px] font-medium text-slate-500 text-center">Instructional Design Consultant</span>
         </Link>
         <div className="h-px w-full bg-slate-200" />
         <nav className="flex flex-col gap-1">
