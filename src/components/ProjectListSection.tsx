@@ -5,18 +5,26 @@ import type { Project } from "@/content/projects";
 type ProjectListSectionProps = {
   title: string;
   subtitle: string;
-  projects: Project[];
+  heroProject?: Project;
+  featuredProjects: Project[];
+  secondaryProjects: Project[];
 };
 
 export default function ProjectListSection({
   title,
   subtitle,
-  projects,
+  heroProject,
+  featuredProjects,
+  secondaryProjects,
 }: ProjectListSectionProps) {
   return (
     <section className="space-y-8">
       <SectionHeading title={title} subtitle={subtitle} />
-      <ProjectGrid projects={projects} />
+      <ProjectGrid
+        heroProject={heroProject}
+        featuredProjects={featuredProjects}
+        secondaryProjects={secondaryProjects}
+      />
     </section>
   );
 }

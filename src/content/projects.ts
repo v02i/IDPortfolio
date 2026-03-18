@@ -41,10 +41,61 @@ export const competencyOptions: CompetencyTag[] = [
 
 export const projects: Project[] = [
   {
+    slug: "coursekit-id-tools",
+    title: "CourseKit — ID Tools for Higher Ed",
+    oneLineOutcome:
+      "A free toolkit that cuts hours of repetitive ID work down to minutes.",
+    summary:
+      "CourseKit is a web platform built for instructional designers who are tired of spending hours on repetitive tasks. It includes Alt-Scan (automated alt text auditing for documents), Respondus Formatter (converts test banks across 10+ question formats), and Course Visualizer (full IMSCC course package diagnostics in seconds). Built with Next.js, TypeScript, and Python. Fully client-side processing with no file size limits. Live at coursekit.tools.",
+    role: "Creator & Lead Developer",
+    context:
+      "Instructional designers spend hours on repetitive tasks: checking documents for alt text, reformatting test banks, reviewing course structure before faculty meetings. CourseKit automates all of that.",
+    constraints: [
+      "Fully client-side (no server uploads)",
+      "Support multiple file formats",
+      "Free and open to the community",
+      "Must be fast and intuitive for non-technical users",
+    ],
+    approachSteps: [
+      "Identified pain points from 7 years of ID work",
+      "Prototyped Alt-Scan as a Python script",
+      "Rebuilt as a web platform with Next.js",
+      "Added Respondus Formatter and Course Visualizer",
+      "Presented at ID Expo 2025 and 2026",
+      "Deployed at coursekit.tools",
+    ],
+    artifacts: [
+      {
+        label: "CourseKit preview",
+        type: "image",
+        url: "/artifacts/coursekit-og.png",
+        note: "CourseKit platform",
+      },
+      {
+        label: "CourseKit",
+        type: "link",
+        url: "https://coursekit.tools",
+        note: "Live platform",
+      },
+    ],
+    impact: [
+      { label: "Alt text audits", value: "Hours to minutes" },
+      { label: "Question formats supported", value: "10+" },
+      { label: "IMSCC diagnostics", value: "Full package in seconds" },
+    ],
+    tools: ["Next.js", "TypeScript", "Python", "Tailwind CSS", "Canvas LMS"],
+    competencyTags: [
+      "ID & Technology",
+      "Problem-Solving",
+    ],
+    reflection:
+      "CourseKit started because I kept running into the same problems every semester. What began as a quick Python script for alt text checking became a full platform. The goal was always to give IDs back the hours they spend on manual busywork so they can focus on actual design.",
+  },
+  {
     slug: "alt-scan-accessibility-tool",
     title: "Alt-Scan Accessibility Tool",
     oneLineOutcome:
-      "Automates alt-text audits so instructional designers can resolve accessibility gaps faster.",
+      "Automated alt-text audits across PDFs, Word docs, and PowerPoints in minutes instead of hours.",
     summary:
       "Created a Python tool that extracts images missing alt text from PDFs, Word docs, and PPTs, producing a receipt that SMEs can complete and return for quick remediation.",
     role: "Instructional Design Specialist • Solution Architect",
@@ -97,10 +148,10 @@ export const projects: Project[] = [
     slug: "360-vr-simulation-learning-experience",
     title: "360° VR Simulation Learning Experience",
     oneLineOutcome:
-      "A VR/AR multisensory lab experience gave students access to spaces they rarely get to visit.",
+      "Gave students virtual access to a therapy lab they rarely get to visit in person.",
     summary:
       "Partnered with a professor to design a VR/AR experience in CenarioVR for LEI3723L — Recreational Therapy Facilitation Techniques and Modalities Lab, letting students explore multi-sensory rooms such as arousing and calming environments.",
-    role: "Instructional Design Consultant",
+    role: "Instructional Design Specialist",
     context:
       "Access to a therapy multi-sensory lab is limited, so we needed a scalable way for students to experience the space and its therapeutic intent.",
     constraints: [
@@ -151,7 +202,7 @@ export const projects: Project[] = [
     slug: "faculty-workshop-training-enablement",
     title: "Faculty Workshop / Training Enablement",
     oneLineOutcome:
-      "Targeted Canvas workshops helped faculty build stronger rubrics and question banks with confidence.",
+      "Ran Canvas workshops that helped faculty fix recurring rubric and question bank issues.",
     summary:
       "Led two highlight trainings for FIU Online faculty: Building and Managing Rubrics in Canvas and Building Quizzes + Managing Question Banks in Canvas, with recordings shared for those who could not attend.",
     role: "Faculty Consultant",
@@ -200,7 +251,7 @@ export const projects: Project[] = [
     slug: "fiu-online-showcase-course",
     title: "FIU Online Showcase Course",
     oneLineOutcome:
-      "A Canvas-based hub spotlighting edtech, design principles, and exemplary learning experiences.",
+      "Built a Canvas hub where faculty can explore tools and see real examples of strong course design.",
     summary:
       "Developed showcase pages that highlight educational technology and successful Canvas implementations, giving faculty a quick way to explore tools and inspiring course design examples.",
     role: "Instructional Design Specialist",
@@ -254,7 +305,7 @@ export const projects: Project[] = [
     slug: "mslscm-orientation-shell",
     title: "MSLSCM Orientation Shell",
     oneLineOutcome:
-      "A dual-modality orientation hub unified onboarding for both face-to-face and online students.",
+      "Created a shared orientation hub for both in-person and online supply chain management students.",
     summary:
       "Built orientation Canvas shells for both the face-to-face and online Masters in Logistics & Supply Chain Management (MSLSCM), designed to serve as onboarding and an ongoing information hub.",
     role: "Instructional Design Specialist",
@@ -297,7 +348,7 @@ export const projects: Project[] = [
     slug: "pmbao-master-template-implementation",
     title: "PMBAO Program & CASE Master Template",
     oneLineOutcome:
-      "Two college-wide master templates brought consistent, accessible, and engaging Canvas course design.",
+      "Designed two college-wide Canvas templates that standardized look, feel, and accessibility.",
     summary:
       "Built master templates for PMBAO and an earlier CASE program, designing logos, intuitive content placement, and accessible page structures that elevate engagement while keeping consistency across programs.",
     role: "Instructional Design Specialist",

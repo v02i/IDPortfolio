@@ -13,14 +13,11 @@ export default function SectionHeading({
 }: SectionHeadingProps) {
   return (
     <div className={cn("space-y-3", className)}>
-      <div className="flex items-center gap-3">
-        <span className="h-1.5 w-10 rounded-full bg-gradient-to-r from-sky-400 via-indigo-400 to-emerald-400" />
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
-          {title}
-        </p>
-      </div>
+      <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">
+        {title}
+      </p>
       {subtitle ? (
-        <h2 className="text-2xl font-semibold text-slate-900 sm:text-3xl">
+        <h2 className="text-2xl font-medium text-slate-900 sm:text-3xl">
           {subtitle}
         </h2>
       ) : null}

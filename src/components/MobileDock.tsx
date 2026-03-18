@@ -3,7 +3,6 @@ import Link from "next/link";
 const navItems = [
   { label: "Home", href: "/#home" },
   { label: "Projects", href: "/#projects" },
-  { label: "Services", href: "/#services" },
   { label: "About", href: "/#about" },
   { label: "Process", href: "/#process" },
   { label: "Impact", href: "/#impact" },
@@ -23,13 +22,6 @@ function Icon({ label }: { label: string }) {
       return (
         <path
           d="M4 4h7v7H4V4zm9 0h7v7h-7V4zM4 13h7v7H4v-7zm9 0h7v7h-7v-7z"
-          fill="currentColor"
-        />
-      );
-    case "Services":
-      return (
-        <path
-          d="M4 7h16v2H4V7zm0 4h16v2H4v-2zm0 4h10v2H4v-2z"
           fill="currentColor"
         />
       );

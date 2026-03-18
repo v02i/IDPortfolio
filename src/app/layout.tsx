@@ -19,12 +19,20 @@ export const metadata: Metadata = {
   title: "Victor Iglesias | Instructional Design Portfolio",
   description:
     "Instructional design portfolio featuring accessible, high-impact learning solutions.",
-  metadataBase: new URL("https://example.com"),
+  metadataBase: new URL("https://victormiglesias.com"),
   openGraph: {
     title: "Victor Iglesias | Instructional Design Portfolio",
     description:
       "Instructional design portfolio featuring accessible, high-impact learning solutions.",
-    images: ["/og.svg"],
+    url: "https://victormiglesias.com",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Victor Iglesias — Instructional Design Consultant",
+      },
+    ],
   },
 };
 
